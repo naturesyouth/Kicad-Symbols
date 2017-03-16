@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# TPA6120A2
+#
+DEF TPA6120A2 U 0 40 Y Y 1 F N
+F0 "U" -250 500 60 H V C CNN
+F1 "TPA6120A2" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -300 450 300 -450 0 0 0 N
+X Lin+ ~ -400 300 98 R 50 50 1 1 I
+X Lin- ~ -400 100 98 R 50 50 1 1 I
+X Lout ~ 400 200 98 L 50 50 1 1 I
+X Lvcc+ ~ 50 550 98 D 50 50 1 1 I
+X Lvcc- ~ 50 -550 98 U 50 50 1 1 I
+X Rin+ ~ -400 -100 98 R 50 50 1 1 I
+X Rin- ~ -400 -300 98 R 50 50 1 1 I
+X Rout ~ 400 -200 98 L 50 50 1 1 I
+X Rvcc+ ~ -50 550 98 D 50 50 1 1 I
+X Rvcc- ~ -50 -550 98 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
